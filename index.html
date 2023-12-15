@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <svg class="logo__icon">
+          <use href="./images/icons.svg#logo"></use>
+        </svg>
+        <h1 class="logo__title">Dashboard</h1>
+        <p class="logo__text">v.01</p>
+      </div>
+      <div class="auth--mob">
+        <div><img src="./images/avatar.svg" alt="avatar" width="42" /></div>
+        <div class="auth__left">
+          <p class="auth__name">Evano</p>
+          <p class="auth__prof">Project Manager</p>
+        </div>
+      </div>
+      <nav>
+        <ul class="menu">
+          <li class="menu__item">
+            <a class="menu__link" href="#">
+              <div class="menu__link--left">
+                <svg class="menu__icon">
+                  <use href="./images/icons.svg#key"></use>
+                </svg>
+                Dashboard
+              </div>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">
+              <div class="menu__link--left">
+                <svg class="menu__icon">
+                  <use href="./images/icons.svg#product"></use>
+                </svg>
+                Product
+              </div>
+              <svg class="menu__icon menu__icon--right">
+                <use href="./images/icons.svg#right"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link menu__link--current" href="#">
+              <div class="menu__link--left">
+                <svg class="menu__icon">
+                  <use href="./images/icons.svg#user"></use>
+                </svg>
+                Customers
+              </div>
+              <svg class="menu__icon menu__icon--right">
+                <use href="./images/icons.svg#right"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">
+              <div class="menu__link--left">
+                <svg class="menu__icon">
+                  <use href="./images/icons.svg#wallet"></use>
+                </svg>
+                Income
+              </div>
+              <svg class="menu__icon menu__icon--right">
+                <use href="./images/icons.svg#right"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">
+              <div class="menu__link--left">
+                <svg class="menu__icon">
+                  <use href="./images/icons.svg#discount"></use>
+                </svg>
+                Promote
+              </div>
+              <svg class="menu__icon menu__icon--right">
+                <use href="./images/icons.svg#right"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">
+              <div class="menu__link--left">
+                <svg class="menu__icon">
+                  <use href="./images/icons.svg#question"></use>
+                </svg>
+                Help
+              </div>
+              <svg class="menu__icon menu__icon--right">
+                <use href="./images/icons.svg#right"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="auth">
+        <div><img src="./images/avatar.svg" alt="avatar" width="42" /></div>
+        <div class="auth__left">
+          <p class="auth__name">Evano</p>
+          <p class="auth__prof">Project Manager</p>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="main-mob">
+        <h2 class="section__title">All Customers</h2>
+        <h3 class="section__status">Active Members</h3>
+        <label class="search">
+          <svg class="menu__icon menu__icon--search">
+            <use href="./images/icons.svg#search"></use>
+          </svg>
+          <input type="search" placeholder="Search" class="search__input" />
+        </label>
+        <ul class="main-mob__list list">
+          <li class="main-mob__item">
+            Jane Cooper
+            <svg class="menu__icon menu__icon--right">
+              <use href="./images/icons.svg#right"></use>
+            </svg>
+          </li>
+          <li class="main-mob__item">
+            Floyd Miles
+            <svg class="menu__icon menu__icon--right">
+              <use href="./images/icons.svg#right"></use>
+            </svg>
+          </li>
+          <li class="main-mob__item">
+            Ronald Richards
+            <svg class="menu__icon menu__icon--right">
+              <use href="./images/icons.svg#right"></use>
+            </svg>
+          </li>
+          <li class="main-mob__item">
+            Marvin McKinney
+            <svg class="menu__icon menu__icon--right">
+              <use href="./images/icons.svg#right"></use>
+            </svg>
+          </li>
+          <li class="main-mob__item">
+            Jerome Bell
+            <svg class="menu__icon menu__icon--right">
+              <use href="./images/icons.svg#right"></use>
+            </svg>
+          </li>
+          <li class="main-mob__item">
+            Kathryn Murphy
+            <svg class="menu__icon menu__icon--right">
+              <use href="./images/icons.svg#right"></use>
+            </svg>
+          </li>
+          <li class="main-mob__item">
+            Jacob Jones
+            <svg class="menu__icon menu__icon--right">
+              <use href="./images/icons.svg#right"></use>
+            </svg>
+          </li>
+          <li class="main-mob__item">
+            Kristin Watson
+            <svg class="menu__icon menu__icon--right">
+              <use href="./images/icons.svg#right"></use>
+            </svg>
+          </li>
+        </ul>
+        <ul class="page">
+          <li><button type="button" class="page__item"><</button></li>
+          <li>
+            <button type="button" class="page__item page__item--current">
+              1
+            </button>
+          </li>
+          <li><button type="button" class="page__item">2</button></li>
+          <li><button type="button" class="page__item">3</button></li>
+          <li><button type="button" class="page__item">4</button></li>
+          <li>...</li>
+          <li>
+            <button
+              type="button"
+              class="page__item"
+              style="padding-left: 5px; padding-right: 5px"
+            >
+              40
+            </button>
+          </li>
+          <li><button type="button" class="page__item">></button></li>
+        </ul>
+      </section>
+      <h2 class="main__title">Hello Evano 👋🏼,</h2>
+      <section class="section">
+        <header class="section__header">
+          <div>
+            <h2 class="section__title">All Customers</h2>
+            <h3 class="section__status">Active Members</h3>
+          </div>
+          <label class="search">
+            <svg class="menu__icon menu__icon--search">
+              <use href="./images/icons.svg#search"></use>
+            </svg>
+            <input type="search" placeholder="Search" class="search__input" />
+          </label>
+        </header>
+        <table>
+          <thead>
+            <tr class="tabl__head" style="width: 886px">
+              <th style="width: 172px">Customer Name</th>
+              <th style="width: 130px">Company</th>
+              <th style="width: 154px">Phone Number</th>
+              <th style="width: 204px">Email</th>
+              <th style="width: 136px">Country</th>
+              <th style="text-align: center; width: 80px">Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="tabl__head tabl__head--text">
+              <td>Jane Cooper</td>
+              <td>Microsoft</td>
+              <td>(225) 555-0118</td>
+              <td>jane@microsoft.com</td>
+              <td>United States</td>
+              <td>
+                <div class="tabl__box">Active</div>
+              </td>
+            </tr>
+            <tr class="tabl__head tabl__head--text">
+              <td>Floyd Miles</td>
+              <td>Yahoo</td>
+              <td>(205) 555-0100</td>
+              <td>floyd@yahoo.com</td>
+              <td>Kiribati</td>
+              <td><div class="tabl__box tabl__box--in">Inactive</div></td>
+            </tr>
+            <tr class="tabl__head tabl__head--text">
+              <td>Ronald Richards</td>
+              <td>Adobe</td>
+              <td>(302) 555-0107</td>
+              <td>ronald@adobe.com</td>
+              <td>Israel</td>
+              <td><div class="tabl__box tabl__box--in">Inactive</div></td>
+            </tr>
+            <tr class="tabl__head tabl__head--text">
+              <td>Marvin McKinney</td>
+              <td>Tesla</td>
+              <td>(252) 555-0126</td>
+              <td>marvin@tesla.com</td>
+              <td>Iran</td>
+              <td><div class="tabl__box">Active</div></td>
+            </tr>
+            <tr class="tabl__head tabl__head--text">
+              <td>Jerome Bell</td>
+              <td>Google</td>
+              <td>(629) 555-0129</td>
+              <td>jerome@google.com</td>
+              <td>Réunion</td>
+              <td><div class="tabl__box">Active</div></td>
+            </tr>
+            <tr class="tabl__head tabl__head--text">
+              <td>Kathryn Murphy</td>
+              <td>Microsoft</td>
+              <td>(406) 555-0120</td>
+              <td>kathryn@microsoft.com</td>
+              <td>Curaçao</td>
+              <td><div class="tabl__box">Active</div></td>
+            </tr>
+            <tr class="tabl__head tabl__head--text">
+              <td>Jacob Jones</td>
+              <td>Yahoo</td>
+              <td>(208) 555-0112</td>
+              <td>jacob@yahoo.com</td>
+              <td>Brazil</td>
+              <td><div class="tabl__box">Active</div></td>
+            </tr>
+            <tr class="tabl__head tabl__head--text">
+              <td>Kristin Watson</td>
+              <td>Facebook</td>
+              <td>(704) 555-0127</td>
+              <td>kristin@facebook.com</td>
+              <td>Åland Islands</td>
+              <td><div class="tabl__box tabl__box--in">Inactive</div></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="section__foot">
+          <div class="tabl__head" style="margin-top: 32px">
+            Showing data 1 to 8 of 256K entries
+          </div>
+          <ul class="page">
+            <li><button type="button" class="page__item"><</button></li>
+            <li>
+              <button type="button" class="page__item page__item--current">
+                1
+              </button>
+            </li>
+            <li><button type="button" class="page__item">2</button></li>
+            <li><button type="button" class="page__item">3</button></li>
+            <li><button type="button" class="page__item">4</button></li>
+            <li>...</li>
+            <li>
+              <button
+                type="button"
+                class="page__item"
+                style="padding-left: 5px; padding-right: 5px"
+              >
+                40
+              </button>
+            </li>
+            <li><button type="button" class="page__item">></button></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
